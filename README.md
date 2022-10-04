@@ -4,6 +4,7 @@ Hello !
 *welcome on the digital electronics page*
 
 **new content will be added soon, stay tuned !**
+First Exercice: Morse "Paris"
 ```c
 /***********************************************************************
  * 
