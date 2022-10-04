@@ -4,6 +4,7 @@ Hello !
 *welcome on the digital electronics page*
 
 **new content will be added soon, stay tuned !**
+'''c
 /***********************************************************************
  * 
  * Blink a LED in Arduino-style and use function from the delay library.
@@ -123,5 +124,6 @@ int main(void)
         
     }
 }
+'''
 
 
