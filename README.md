@@ -147,18 +147,18 @@ int main(void)
    | **DDRB** | **PORTB** | **Direction** | **Internal pull-up resistor** | **Description** |
    | :-: | :-: | :-: | :-: | :-- |
    | 0 | 0 | input | no | Tri-state, high-impedance |
-   | 0 | 1 | | | |
-   | 1 | 0 | | | |
-   | 1 | 1 | | | |
+   | 0 | 1 | input | no | Tri-state (Hi-Z) |
+   | 1 | 0 | output| no | Output Low (Sink) |
+   | 1 | 1 | output| no | Output High (Source) |
 
 ### GPIO library
 
 
    | **Version** | **Size [B]** |
    | :-- | :-: |
-   | Ver. 1: Arduino-style |  |
-   | Ver. 2: Registers |  |
-   | Ver. 3: Library functions |  |
+   | Ver. 1: Arduino-style | 480 |
+   | Ver. 2: Registers | 182 |
+   | Ver. 3: Library functions | 182 |
 
 ### Traffic light
 
