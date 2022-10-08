@@ -129,3 +129,38 @@ int main(void)
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+# Lab 2: LUCAS LACROIX
+
+### GPIO control registers
+
+
+   | **DDRB** | **PORTB** | **Direction** | **Internal pull-up resistor** | **Description** |
+   | :-: | :-: | :-: | :-: | :-- |
+   | 0 | 0 | input | no | Tri-state, high-impedance |
+   | 0 | 1 | | | |
+   | 1 | 0 | | | |
+   | 1 | 1 | | | |
+
+### GPIO library
+
+
+   | **Version** | **Size [B]** |
+   | :-- | :-: |
+   | Ver. 1: Arduino-style |  |
+   | Ver. 2: Registers |  |
+   | Ver. 3: Library functions |  |
+
+### Traffic light
+
+
+
