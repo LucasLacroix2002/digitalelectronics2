@@ -163,4 +163,5 @@ int main(void)
 ### Traffic light
 
 
+![capture d'écran lab2 électronique](https://user-images.githubusercontent.com/114081959/194910487-30ddc376-13cc-4314-b94a-39678fdeb4e3.png)
 
