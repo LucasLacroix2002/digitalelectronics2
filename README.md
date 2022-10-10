@@ -165,3 +165,4 @@ int main(void)
 
 ![capture d'écran lab2 électronique](https://user-images.githubusercontent.com/114081959/194910487-30ddc376-13cc-4314-b94a-39678fdeb4e3.png)
 
+with the 3 first leds defining our traffic light ( with 3 different colors ), and the two last for pedestrian traffic lights ( only red and green led )
