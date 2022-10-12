@@ -4,7 +4,8 @@ Hello !
 *welcome on the digital electronics page*
 
 **new content will be added soon, stay tuned !**
-LAB 1: Morse "Paris"
+# Lab 1: LUCAS LACROIX MORSE CODE
+
 ```c
 /***********************************************************************
  * 
@@ -139,7 +140,7 @@ int main(void)
 
 
 
-# Lab 2: LUCAS LACROIX
+# Lab 2: LUCAS LACROIX TRAFFIC LIGHTS
 
 ### GPIO control registers
 
