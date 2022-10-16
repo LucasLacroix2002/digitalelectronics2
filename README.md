@@ -193,3 +193,12 @@ with the 3 first leds defining our traffic light ( with 3 different colors ), an
 /** @brief Disable overflow interrupt, 0 --> disable */
 #define TIM1_overflow_interrupt_disable() TIMSK2 &= ~(1<<TOIE2);
 ```
+## difference between Normal mode and CTC mode:
+- the OCR0A Register is used for the CTC mode but the normal mode don't use special register
+- The CTC mode allows greater control of the compare match output frequency
+- There are no special cases to consider in the Normal mode, but in the CTC mode you can generate a interrupt
+## difference between Fast PMW mode and Phase correct PMW mode:
+
+- The fast PMW mode provides a high frequency PWM waveform generation option but the phase correct mode allows a high resolution phase correct PWM waveform
+generation option, so the difference is between frequency / resolution
+-
