@@ -202,3 +202,23 @@ with the 3 first leds defining our traffic light ( with 3 different colors ), an
      OCR0B
      TIMSK0
      TIFR0
+
+# Lab 3: LUCAS LACROIX TIMER2
+
+/** @brief Stop timer, prescaler 000 --> STOP */
+#define TIM2_stop()           TCCR2B &= ~((1<<CS22) | (1<<CS21) | (1<<CS20));
+/** @brief Set overflow 4ms, prescaler 001 --> 1 */
+#define TIM2_overflow_4ms()   TCCR2B &= ~((1<<CS22) | (1<<CS21)); TCCR2B |= (1<<CS20);
+/** @brief Set overflow 33ms, prescaler 010 --> 8 */
+#define TIM2_overflow_33ms()  TCCR2B &= ~((1<<CS22) | (1<<CS20)); TCCR2B |= (1<<CS21);
+/** @brief Set overflow 262ms, prescaler 011 --> 64 */
+#define TIM2_overflow_262ms() TCCR2B &= ~(1<<CS22); TCCR2B |= (1<<CS21) | (1<<CS20);
+/** @brief Set overflow 1s, prescaler 100 --> 256 */
+#define TIM2_overflow_1s()    TCCR2B &= ~((1<<CS21) | (1<<CS20)); TCCR2B |= (1<<CS22);
+/** @brief Set overflow 4s, prescaler // 101 --> 1024 */
+#define TIM2_overflow_4s()    TCCR2B &= ~(1<<CS21); TCCR2B |= (1<<CS22) | (1<<CS20);
+
+/** @brief Enable overflow interrupt, 1 --> enable */
+#define TIM1_overflow_interrupt_enable()  TIMSK2 |= (1<<TOIE2);
+/** @brief Disable overflow interrupt, 0 --> disable */
+#define TIM1_overflow_interrupt_disable() TIMSK2 &= ~(1<<TOIE2);
