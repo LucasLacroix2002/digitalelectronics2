@@ -170,41 +170,11 @@ with the 3 first leds defining our traffic light ( with 3 different colors ), an
 
 
 
-# Lab 3: YOUR_FIRSTNAME LASTNAME
 
-### Overflow times
-
-1. Complete table with overflow times.
-
-   | **Module** | **Number of bits** | **1** | **8** | **32** | **64** | **128** | **256** | **1024** |
-   | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-   | Timer/Counter0 | 8  | 16u | 128u | -- | | -- | | |
-   | Timer/Counter1 | 16 |     |      | -- | | -- | | |
-   | Timer/Counter2 | 8  |     |      |    | |    | | |
-
-### Interrupts
-
-2. In `timer.h` header file, define macros also for Timer/Counter2. Listing of part of the header file with settings for Timer/Counter2. Always use syntax highlighting, meaningful comments, and follow C guidelines:
-
-   ```c
-   /**
-    * @name  Definitions for 8-bit Timer/Counter2
-    * @note  t_OVF = 1/F_CPU * prescaler * 2^n where n = 8, F_CPU = 16 MHz
-    */
-   // WRITE YOUR CODE HERE
-   ```
-
-   //prescaler:TCCR01
-
-   //TCCR0B  CS02/CS01/CS00
-     TCNT0
-     OCR0A
-     OCR0B
-     TIMSK0
-     TIFR0
+   
 
 # Lab 3: LUCAS LACROIX TIMER2
-
+```c
 /** @brief Stop timer, prescaler 000 --> STOP */
 #define TIM2_stop()           TCCR2B &= ~((1<<CS22) | (1<<CS21) | (1<<CS20));
 /** @brief Set overflow 4ms, prescaler 001 --> 1 */
@@ -222,3 +192,4 @@ with the 3 first leds defining our traffic light ( with 3 different colors ), an
 #define TIM1_overflow_interrupt_enable()  TIMSK2 |= (1<<TOIE2);
 /** @brief Disable overflow interrupt, 0 --> disable */
 #define TIM1_overflow_interrupt_disable() TIMSK2 &= ~(1<<TOIE2);
+```
