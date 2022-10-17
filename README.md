@@ -214,4 +214,4 @@ with the 3 first leds defining our traffic light ( with 3 different colors ), an
 
 - The fast PMW mode provides a high frequency PWM waveform generation option but the phase correct mode allows a high resolution phase correct PWM waveform
 generation option, so the difference is between frequency / resolution
--
+
