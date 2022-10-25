@@ -215,3 +215,19 @@ with the 3 first leds defining our traffic light ( with 3 different colors ), an
 - The fast PMW mode provides a high frequency PWM waveform generation option but the phase correct mode allows a high resolution phase correct PWM waveform
 generation option, so the difference is between frequency / resolution
 
+
+
+# Lab 4: LACROIX LUCAS
+
+### Stopwatch
+
+1. Draw a flowchart for `TIMER2_OVF_vect` interrupt service routine which overflows every 16&nbsp;ms but it updates the stopwatch LCD screen approximately every 100&nbsp;ms (6 x 16&nbsp;ms = 100&nbsp;ms). Display tenths of a second, seconds, and minutes and let the stopwatch counts from `00:00.0` to `59:59.9` and then starts again. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
+
+   ![<img width="608" alt="Capture d'écran_20221025_160920" src="https://user-images.githubusercontent.com/114081959/197805378-959e8acd-58b6-467d-98bd-dcaa1ccaa6db.png">
+]()
+
+### Kitchen alarm
+
+2. Draw a schematic of the kitchen alarm application that counts down the time with an LCD, one LED and three push buttons: start, +1 minute, -1 minute. Use the +1/-1 minute buttons to increment/decrement the timer value. After pressing the Start button, the countdown starts. The countdown value is shown on the display in the form of mm.ss (minutes.seconds). At the end of the countdown, the LED will start blinking. The image can be drawn on a computer or by hand. Always name all components and their values.
+
+   ![your figure]()
