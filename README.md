@@ -223,8 +223,8 @@ generation option, so the difference is between frequency / resolution
 
 1. Draw a flowchart for `TIMER2_OVF_vect` interrupt service routine which overflows every 16&nbsp;ms but it updates the stopwatch LCD screen approximately every 100&nbsp;ms (6 x 16&nbsp;ms = 100&nbsp;ms). Display tenths of a second, seconds, and minutes and let the stopwatch counts from `00:00.0` to `59:59.9` and then starts again. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![<img width="608" alt="Capture d'écran_20221025_160920" src="https://user-images.githubusercontent.com/114081959/197805378-959e8acd-58b6-467d-98bd-dcaa1ccaa6db.png">
-]()
+   ![]()<img width="608" alt="Capture_d_écran_LB4_1" src="https://user-images.githubusercontent.com/114081959/197805744-fba501d9-6ad4-49c6-b7f4-55d588c859e7.png">
+
 
 ### Kitchen alarm
 
