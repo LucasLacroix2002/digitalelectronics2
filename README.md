@@ -254,9 +254,11 @@ The 3 buttons corresponds to the "start button", the "+1 button" and finally the
 Consider an application for temperature measurement. Use analog temperature sensor [TC1046](http://ww1.microchip.com/downloads/en/DeviceDoc/21496C.pdf), LCD, and a LED. Every 30 seconds, the temperature is measured and the value is displayed on LCD screen. When the temperature is too high, the LED will turn on.
 
 2. Draw a schematic of temperature meter. The image can be drawn on a computer or by hand. Always name all components, their values and pin names!
+
 ![IMG_6318](https://user-images.githubusercontent.com/114081959/199350893-624f5ef7-91c8-4a21-a8d1-68ebff14734e.jpg)
 
 3. Draw two flowcharts for interrupt handler `TIMER1_OVF_vect` (which overflows every 1&nbsp;sec) and `ADC_vect`. The image can be drawn on a computer or by hand. Use clear descriptions of individual algorithm steps.
 
+   
    ![IMG_6319](https://user-images.githubusercontent.com/114081959/199350936-9a845f3a-3de8-4b80-813d-39040b411bb0.jpg)
 
