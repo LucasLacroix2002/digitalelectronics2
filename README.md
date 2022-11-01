@@ -243,11 +243,11 @@ The 3 buttons corresponds to the "start button", the "+1 button" and finally the
    | **Push button** | **PC0 voltage** | **ADC value (calculated)** | **ADC value (measured)** | **ADC value (measured, hex)** |
    | :-: | :-: | :-: | :-: | :-: |
    | Right  | 0&nbsp;V | 0   | 0 | 0 |
-   | Up     | 0.495&nbsp;V | 101 |  |  |
-   | Down   | 1.203&nbsp;V | 246 |  |  |
-   | Left   |  |  |  |  |
-   | Select |  |  |  |  |
-   | none   |  |  |  |  |
+   | Up     | 0.495&nbsp;V | 101 | 143 |  |
+   | Down   | 1.203&nbsp;V | 246 | 342 |  |
+   | Left   | 2,5V | 512 | 511 |  |
+   | Select | 3,15V | 645 | 731 |  |
+   | none   | 5V | 1023 | 1023 |  |
 
 ### Temperature meter
 
