@@ -287,8 +287,9 @@ Consider an application for temperature measurement. Use analog temperature sens
 
 2. Draw a timing diagram of the output from UART/USART when transmitting three character data `De2` in 4800 7O2 mode (7 data bits, odd parity, 2 stop bits, 4800&nbsp;Bd). The image can be drawn on a computer (by [WaveDrom](https://wavedrom.com/) for example) or by hand. Name all parts of timing diagram.
 
-   ![IMG_6371](https://user-images.githubusercontent.com/114081959/200690074-c1ef6a85-8d5a-4063-aa93-407e75a17bda.jpg)()
+   ![IMG_6371](https://user-images.githubusercontent.com/114081959/200690730-e01a0c8f-e2c3-4d3a-803a-4cd6390db8c2.jpg)
 
 3. Draw a flowchart for function `uint8_t get_parity(uint8_t data, uint8_t type)` which calculates a parity bit of input 8-bit `data` according to parameter `type`. The image can be drawn on a computer or by hand. Use clear description of individual algorithm steps.
 
-   ![IMG_6372 (1)](https://user-images.githubusercontent.com/114081959/200690144-7e64b37a-3c57-4df6-bce8-d1b32b34ebcc.jpg)()
+   ![IMG_6372](https://user-images.githubusercontent.com/114081959/200690785-c4aa663e-11fe-43d9-ab1f-1fb25d221a11.jpg)
+
