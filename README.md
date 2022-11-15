@@ -294,3 +294,33 @@ Consider an application for temperature measurement. Use analog temperature sens
 
    ![IMG_6372](https://user-images.githubusercontent.com/114081959/200690785-c4aa663e-11fe-43d9-ab1f-1fb25d221a11.jpg)
 
+
+
+# Lab 7: LACROIX Lucas
+
+### Arduino Uno pinout
+
+1. In the picture of the Arduino Uno board, mark the pins that can be used for the following functions/operations:
+   * PWM generators from Timer0, Timer1, Timer2
+   * analog channels for ADC
+   * UART pins
+   * I2C pins
+   * SPI pins
+   * external interrupt pins INT0, INT1
+
+   ![IMG_6480](https://user-images.githubusercontent.com/114081959/202033836-6af6eed5-c3cf-46e5-abbe-cfe326f8ab93.JPG)()
+
+### I2C communication
+
+2. Draw a timing diagram of I2C signals when calling function `rtc_read_years()`. Let this function reads one byte-value from RTC DS3231 address `06h` (see RTC datasheet) in the range `00` to `99`. Specify when the SDA line is controlled by the Master device and when by the Slave device. Draw the whole request/receive process, from Start to Stop condition. The image can be drawn on a computer (by [WaveDrom](https://wavedrom.com/) for example) or by hand. Name all parts of timing diagram.
+
+   ![IMG_6481](https://user-images.githubusercontent.com/114081959/202033964-df08f47c-e0a4-4fa6-9260-b5c831ba2fad.JPG)
+()
+
+### Meteo station
+
+Consider an application for temperature and humidity measurements. Use sensor DHT12, real time clock DS3231, LCD, and one LED. Every minute, the temperature, humidity, and time is requested from Slave devices and values are displayed on LCD screen. When the temperature is above the threshold, turn on the LED.
+
+3. Draw a flowchart of `TIMER1_OVF_vect` (which overflows every 1&nbsp;sec) for such Meteo station. The image can be drawn on a computer or by hand. Use clear description of individual algorithm steps.
+
+   ![your figure]()
