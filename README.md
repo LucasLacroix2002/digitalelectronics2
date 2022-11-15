@@ -314,7 +314,7 @@ Consider an application for temperature measurement. Use analog temperature sens
 
 2. Draw a timing diagram of I2C signals when calling function `rtc_read_years()`. Let this function reads one byte-value from RTC DS3231 address `06h` (see RTC datasheet) in the range `00` to `99`. Specify when the SDA line is controlled by the Master device and when by the Slave device. Draw the whole request/receive process, from Start to Stop condition. The image can be drawn on a computer (by [WaveDrom](https://wavedrom.com/) for example) or by hand. Name all parts of timing diagram.
 
-  ![your figure]()
+  ![IMG_6482](https://user-images.githubusercontent.com/114081959/202038955-cec35b81-4140-4ec8-9ba5-80c5329bc068.JPG)()
 
 ### Meteo station
 
