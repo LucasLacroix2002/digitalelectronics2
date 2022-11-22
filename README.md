@@ -354,5 +354,5 @@ Consider an application for temperature and humidity measurements. Use sensor DH
 
 3. Draw a flowchart of function `void burst_c(uint8_t number)` which generates a variable number of short pulses at output pin. Let the pulse width be the shortest one. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![]()[IMG_6522](https://user-images.githubusercontent.com/114081959/203425098-e507e20f-4500-4199-a19b-4b545bafc44e.jpg)
+   ![IMG_6522](https://user-images.githubusercontent.com/114081959/203425098-e507e20f-4500-4199-a19b-4b545bafc44e.jpg)
 
